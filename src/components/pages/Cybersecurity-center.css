@@ -1,0 +1,29 @@
+.cybercenter-image {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.cybercenter-sections {
+    text-align: center;
+}
+
+.cybercenter-sections > h2 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.cybercenter-sections > p {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+    .cybercenter-sections > h2 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .cybercenter-sections > p {
+        font-size: 1.5rem;
+    }
+}

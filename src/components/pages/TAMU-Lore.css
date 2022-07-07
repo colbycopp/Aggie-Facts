@@ -1,0 +1,59 @@
+.tamu-sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.tamu-sections-section {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    
+}
+
+figcaption:nth-child(2n - 1) {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+figcaption:nth-child(2n) {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+figcaption > h2 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+figcaption > p {
+    font-size: 1.5rem;
+}
+
+.tamu-section-images {
+    width: 50%;
+}
+
+#tamu-lastsection {
+    margin-left: 20rem;
+}
+
+#tamu-firstsection {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+    .tamu-sections-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    figcaption {
+        text-align: center;
+    }
+
+    #tamu-lastsection {
+        margin-left: 0;
+    }
+}
