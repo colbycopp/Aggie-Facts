@@ -11,23 +11,23 @@
     
 }
 
-figcaption:nth-child(2n - 1) {
+.tamuLore-figcaptions {
     text-align: left;
     margin-left: 1rem;
 }
 
-figcaption:nth-child(2n) {
+.tamuLore-figcaptions:nth-of-type(odd) {
     text-align: right;
     margin-right: 1rem;
 }
 
-figcaption > h2 {
+.tamuLore-figcaptions > h2 {
     font-size: 3rem;
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
 
-figcaption > p {
+.tamuLore-figcaptions > p {
     font-size: 1.5rem;
 }
 

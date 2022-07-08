@@ -9,14 +9,14 @@ function TAMULore() {
             <div className='tamu-sections'>
                 <section className='tamu-sections-section' id='tamu-firstsection'>
                     <img src={require('../images/tamu-lore.jpeg')} className='tamu-section-images'/>
-                    <figcaption>
+                    <figcaption className='tamuLore-figcaptions'>
                         <h2>Founding</h2>
                         <p>Texas A&M was founded in 1876 under the Morril Act. It was the first public university in Texas. </p>
                     </figcaption>
                 </section>
                 <section className='tamu-sections-section'>
                     <img src={require('../images/reveille.jpeg')} className='tamu-section-images'/>
-                    <figcaption>
+                    <figcaption className='tamuLore-figcaptions'>
                         <h2>Revelli</h2>
                         <p>One weekend, in 1931, a few corps men got into an accident with a stray dog. 
                            The smuggled her back to campus to get her medicial attention. The next morning, 
@@ -26,7 +26,7 @@ function TAMULore() {
                 </section>
                 <section className='tamu-sections-section'>
                 <img src={require('../images/12thman.jpg')} className='tamu-section-images'/>
-                    <figcaption>
+                    <figcaption className='tamuLore-figcaptions'>
                         <h2>12th Man</h2>
                         <p>The legend of the 12th man began in 1922, when the Aggies were short on 
                             players for their upcoming football game. A corps member by the name of 
@@ -36,7 +36,7 @@ function TAMULore() {
                 </section>
                 <section className='tamu-sections-section'>
                     <img src={require('../images/Aggie_Ring.jpg')} className='tamu-section-images'/>
-                    <figcaption id='tamu-lastsection'>
+                    <figcaption className='tamuLore-figcaptions' id='tamu-lastsection'>
                         <h2>AGGIE RING</h2>
                         <p>The tradition of the Aggie Ring dates back to 1889. The ring symbolizes 
                             a student's journey through Aggieland. A student will earn their Aggie Ring after 90 credit hours. </p>

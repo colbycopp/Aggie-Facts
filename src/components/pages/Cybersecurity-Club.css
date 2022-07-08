@@ -1,0 +1,20 @@
+#cyberclub-main-section {
+    display: flex;
+    width: 90%;
+    margin:auto;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#cyberclub-main-img {
+    width: 50%;
+}
+
+.cyberclub-info-clubs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "club1 club2 club3"
+    "club4  club5 club6";
+}
